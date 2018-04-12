@@ -32,7 +32,7 @@ public class Rotation{
 
     static void display(int m[][])
     {
-        System.out.println("\nThe rotated matrix >> ");
+        System.out.println("\nThe matrix is >> ");
         for(int i = 0;i < m.length;i++)
         {
             for(int j = 0;j < m[0].length;j++)
@@ -60,7 +60,7 @@ public class Rotation{
             }
         }
 
-        System.out.println("The original matrix >> ");
+        System.out.println("Initially: ");
         display(m1);
 
         do{
