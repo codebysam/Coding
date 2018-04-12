@@ -22,7 +22,7 @@ public class Rotation{
         {
             for(l = 0,i=m-1;l < m;l++,i--)
             {
-                System.out.println("("+k+","+l+") = ("+i+","+j+")");
+                //System.out.println("("+k+","+l+") = ("+i+","+j+")");
                 m2[k][l] = m1[i][j];
             }
         }
